@@ -15,6 +15,9 @@
 		7490768A15E8B18E0059620E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490768915E8B18E0059620E /* AppDelegate.m */; };
 		7490768D15E8B18E0059620E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490768C15E8B18E0059620E /* ViewController.m */; };
 		7490769015E8B18E0059620E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7490768E15E8B18E0059620E /* ViewController.xib */; };
+		7490769915E8B1D00059620E /* circle_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769615E8B1D00059620E /* circle_B.png */; };
+		7490769A15E8B1D00059620E /* circle_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769715E8B1D00059620E /* circle_G.png */; };
+		7490769B15E8B1D00059620E /* circle_R.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769815E8B1D00059620E /* circle_R.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,11 @@
 		7490768B15E8B18E0059620E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7490768C15E8B18E0059620E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7490768F15E8B18E0059620E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7490769615E8B1D00059620E /* circle_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_B.png; sourceTree = "<group>"; };
+		7490769715E8B1D00059620E /* circle_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_G.png; sourceTree = "<group>"; };
+		7490769815E8B1D00059620E /* circle_R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_R.png; sourceTree = "<group>"; };
+		7490769C15E8B1DC0059620E /* MyOvalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOvalButton.h; sourceTree = "<group>"; };
+		7490769D15E8B1DC0059620E /* MyOvalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOvalButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,12 @@
 				7490768915E8B18E0059620E /* AppDelegate.m */,
 				7490768B15E8B18E0059620E /* ViewController.h */,
 				7490768C15E8B18E0059620E /* ViewController.m */,
+				7490769C15E8B1DC0059620E /* MyOvalButton.h */,
+				7490769D15E8B1DC0059620E /* MyOvalButton.m */,
 				7490768E15E8B18E0059620E /* ViewController.xib */,
+				7490769615E8B1D00059620E /* circle_B.png */,
+				7490769715E8B1D00059620E /* circle_G.png */,
+				7490769815E8B1D00059620E /* circle_R.png */,
 				7490768015E8B18D0059620E /* Supporting Files */,
 			);
 			path = OvalButton;
@@ -151,6 +164,9 @@
 			files = (
 				7490768415E8B18D0059620E /* InfoPlist.strings in Resources */,
 				7490769015E8B18E0059620E /* ViewController.xib in Resources */,
+				7490769915E8B1D00059620E /* circle_B.png in Resources */,
+				7490769A15E8B1D00059620E /* circle_G.png in Resources */,
+				7490769B15E8B1D00059620E /* circle_R.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

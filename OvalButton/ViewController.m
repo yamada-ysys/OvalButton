@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end
 
 @implementation ViewController
@@ -22,6 +24,7 @@
 
 - (void)viewDidUnload
 {
+	[self setLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -29,6 +32,18 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)action1:(id)sender {
+	self.label.text = @"Selected:R";
+}
+
+- (IBAction)action2:(id)sender {
+	self.label.text = @"Selected:G";
+}
+
+- (IBAction)action3:(id)sender {
+	self.label.text = @"Selected:B";
 }
 
 @end
