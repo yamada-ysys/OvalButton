@@ -18,6 +18,7 @@
 		7490769915E8B1D00059620E /* circle_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769615E8B1D00059620E /* circle_B.png */; };
 		7490769A15E8B1D00059620E /* circle_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769715E8B1D00059620E /* circle_G.png */; };
 		7490769B15E8B1D00059620E /* circle_R.png in Resources */ = {isa = PBXBuildFile; fileRef = 7490769815E8B1D00059620E /* circle_R.png */; };
+		749076A215E8B3550059620E /* MyOvalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490769D15E8B1DC0059620E /* MyOvalButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -180,6 +181,7 @@
 				7490768615E8B18D0059620E /* main.m in Sources */,
 				7490768A15E8B18E0059620E /* AppDelegate.m in Sources */,
 				7490768D15E8B18E0059620E /* ViewController.m in Sources */,
+				749076A215E8B3550059620E /* MyOvalButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
